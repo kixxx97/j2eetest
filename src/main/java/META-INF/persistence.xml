@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="SoaBaseCode">
+		<class>ph.com.alliance.entity.Account</class>
+		<class>ph.com.alliance.entity.Training</class>
+		<class>ph.com.alliance.entity.TrainingProgram</class>
+		<class>ph.com.alliance.entity.TrainingFacilitator</class>
+		<class>ph.com.alliance.entity.TrainingFacilitatorPK</class>
+		<class>ph.com.alliance.entity.TrainingParticipant</class>
+		<class>ph.com.alliance.entity.TrainingParticipantPK</class>
+		</persistence-unit>
+</persistence>
